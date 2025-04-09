@@ -30,7 +30,7 @@ class Solution {
             left.right = temp;
             root.left = null;
         }
-        flatten(root.left);
+        // flatten(root.left); // optional
         flatten(root.right);
     }
 }
